@@ -94,6 +94,7 @@
           @include label-large;
           font-size: var(--font-0);
           &:before {
+            display: none !important;
             width: 1rem;
             height: 1rem;
             font-size: 0.75rem;

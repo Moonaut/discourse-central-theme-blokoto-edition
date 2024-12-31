@@ -1,41 +1,33 @@
 .badge-category__wrapper {
   font-size: inherit;
+
   .badge-category {
     gap: 0.25rem;
     align-items: center;
-    &__name {
-      color: var(--neutral-10);
-    }
+    border-radius: 10rem;
+    padding: 0.1rem 0.75rem;
+    background-color: var(--category-badge-color);
+    color: var(--category-badge-text-color);
+
     &.--has-parent {
       &:before {
         background: none;
       }
-    }
-    &:before {
-      content: "📁";
-      background: none;
-      width: 1.25rem;
-      height: 1rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 1rem;
-    }
-
-    .badge-category:before {
-      content: "📁";
     }
   }
 }
 
 .badge-category__wrapper {
   font-size: inherit;
+
   .badge-category {
     gap: 0.25rem;
     align-items: center;
-    &__name {
-      color: var(--neutral-10);
-    }
+    border-radius: 10rem;
+    padding: 0.1rem 0.75rem;
+    background-color: var(--category-badge-color);
+    color: var(--category-badge-text-color);
+
     &.--has-parent {
       &:before {
         background: none;

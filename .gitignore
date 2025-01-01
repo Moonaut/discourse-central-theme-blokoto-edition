@@ -1,2 +1,9 @@
 node_modules
 .discourse-site
+/.idea/.gitignore
+/.idea/discourse-central-theme-blokoto-edition.iml
+/.idea/modules.xml
+/.idea/prettier.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
+/.idea/watcherTasks.xml

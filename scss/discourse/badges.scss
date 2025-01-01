@@ -1,38 +1,44 @@
 .badge-category__wrapper {
   font-size: inherit;
-
   .badge-category {
     gap: 0.25rem;
     align-items: center;
-    border-radius: 10rem;
-    padding: 0.1rem 0.75rem !important;
-    background-color: var(--category-badge-color) !important;
-    color: var(--category-badge-text-color) !important;
-
+    &__name {
+      color: var(--neutral-10);
+    }
     &.--has-parent {
       &:before {
         background: none;
-        display: none !important;
       }
+    }
+    &:before {
+      content: "⏺";
+      background: none;
+      width: 1.25rem;
+      height: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1rem;
+    }
+
+    .badge-category:before {
+      content: "⏺";
     }
   }
 }
 
 .badge-category__wrapper {
   font-size: inherit;
-
   .badge-category {
     gap: 0.25rem;
     align-items: center;
-    border-radius: 10rem;
-    padding: 0.1rem 0.75rem;
-    background-color: var(--category-badge-color);
-    color: var(--category-badge-text-color);
-
+    &__name {
+      color: var(--neutral-10);
+    }
     &.--has-parent {
       &:before {
         background: none;
-        display: none !important;
       }
     }
   }
